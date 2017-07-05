@@ -11,6 +11,25 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+
+
+
+Route::group(['prefix' => '/'], function () {
+    Route::get('', 'HomeController@index');
 });
+Auth::routes();
+
+Route::group(['prefix' => 'admin'], function () {
+    Route::get('/', 'AdminController@index');
+});
+
+
+
+
+
+// Route::get('language/{lang}', 'LanguageController@index');
+
+//If unknown url, redirect to homepage.
+Route::any('{query}',
+    function() { return redirect('/'); })
+    ->where('query', '.*');
