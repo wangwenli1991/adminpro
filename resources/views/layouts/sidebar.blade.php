@@ -50,8 +50,10 @@
             </span>
             </a>
             <ul class="treeview-menu">
-                <li class="active"><a href="index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-                <li><a href="index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
+                <li class="active"><a target="blank" href="https://adminlte.io/themes/AdminLTE/index.html#"><i class="fa fa-circle-o"></i> 原版控制面板</a></li>
+                <li class="active"><a  target="blank" href="http://testadmin.bibicars.cn/"><i class="fa fa-circle-o"></i> bibicar后台</a></li>
+                <li class="active"><a  target="blank" href="custom.dashboard 
+/"><i class="fa fa-circle-o"></i> laravel-admin开发文档</a></li>
             </ul>
         </li>
 

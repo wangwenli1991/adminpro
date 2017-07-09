@@ -27,9 +27,10 @@
 										</div>
 									</div>
 									<ul class="list-inline hidden-sm hidden-xs">
-										<li><i class="fa fa-map-marker pr-5 pl-10"></i>One Infinity Loop Av, Tk 123456</li>
-										<li><i class="fa fa-phone pr-5 pl-10"></i>+12 123 123 123</li>
-										<li><i class="fa fa-envelope-o pr-5 pl-10"></i> theproject@mail.com</li>
+										<li><i class="fa fa-map-marker pr-5 pl-10"></i>我的位置</li>
+										<li><i class="fa fa-phone pr-5 pl-10"></i>{{ Auth::user()->created_at }}</li>
+										<li><i class="fa fa-envelope-o pr-5 pl-10"></i>{{ Auth::user()->email }}</li>
+										<li><i class="">当前时间 :</i><?php echo date('Y-m-d'); ?></li>										
 									</ul>
 								</div>
 								<!-- header-top-first end -->

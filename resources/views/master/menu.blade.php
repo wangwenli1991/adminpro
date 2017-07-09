@@ -129,7 +129,7 @@
 
 													<!-- mega-menu start -->
 													<li class="dropdown active mega-menu">
-														<a href="/wbof/template/index.html" class="dropdown-toggle" data-toggle="dropdown">Home</a>
+														<a href="/wbof/template/index.html" class="dropdown-toggle" data-toggle="dropdown">主页</a>
 														<ul class="dropdown-menu">
 															<li>
 																<div class="row">
